@@ -1,0 +1,39 @@
+﻿  MyForm.cpp
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(264): error C2664: "BOOL GetVolumeInformationW(LPCWSTR,LPWSTR,DWORD,LPDWORD,LPDWORD,LPDWORD,LPWSTR,DWORD)": невозможно преобразовать аргумент 1 из "const char *" в "LPCWSTR"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(264): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(280): error C2664: "BOOL GetDiskFreeSpaceExW(LPCWSTR,PULARGE_INTEGER,PULARGE_INTEGER,PULARGE_INTEGER)": невозможно преобразовать аргумент 1 из "const char *" в "LPCWSTR"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(280): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(326): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(327): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(328): error C2664: "HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)": невозможно преобразовать аргумент 1 из "char *" в "LPCWSTR"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(328): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(333): error C2440: инициализация: невозможно преобразовать "char *" в "TCHAR *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(333): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(336): error C2664: "char *strcpy(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(336): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(336): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(336): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(341): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(341): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(347): error C2664: "char *strcpy(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(347): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(347): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(347): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(359): error C2664: "char *strcpy(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(359): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(367): error C2664: "char *strcpy(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(367): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(367): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(367): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(371): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(121): note:  см. объявление "wcscpy"
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(371): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h(101): note:  см. объявление "wcscat"
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(391): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 1 из "TCHAR *" в "char *"
+  e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(391): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(479): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+e:\универ\системное программирование\sp_fm\sp_fm\MyForm.h(476): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note:  см. объявление "sprintf"

@@ -1,0 +1,39 @@
+  SP_FM.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly SP_FM, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SP_FM.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    SP_FM._Disks* disks : Public
+    Int32 diskAmount : Public
+    UInt16 SectSize : Public
+    SP_FM._MBR** mbrs : Public
+    Int32 mbrsN : Public
+    Int32 gptsN : Public
+    SP_FM._GPT** gpts : Public
+    SP_FM._BOOT* curBoot : Public
+    SP_FM._Catalog* curCatPart : Public
+    SP_FM._FileInfo* curDir : Public
+    UInt32* FAT : Public
+    Char* curHddName : Public
+    Boolean isMBR : Public
+    UInt64 curAbsFirSec : Public
+    Int32 curFS : Public
+    SByte* curPath : Public
+    UInt32 rootCurClust IsLong : Public
